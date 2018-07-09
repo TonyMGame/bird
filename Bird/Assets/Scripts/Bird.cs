@@ -46,7 +46,7 @@ public class Bird : MonoBehaviour {
         print("鼠标抬起");
         isClick = false;
         rg.isKinematic = false; //受到物理控制
-        Invoke("Fly", 0.1f);     //弹性失活
+        Invoke("Fly", 0.1f);     //弹性 失活
         //禁用划线组件
         right.enabled = false;
         left.enabled = false;
