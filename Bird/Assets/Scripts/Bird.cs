@@ -38,7 +38,7 @@ public class Bird : MonoBehaviour {
     {
         print("鼠标按下");
         isClick = true;
-        rg.isKinematic = true; //鼠标按下  刚体脱离物理控制，只有重力
+        rg.isKinematic = true; //鼠标按下  刚体脱离物理控制，只有重 力
     }
 
     private void OnMouseUp()
